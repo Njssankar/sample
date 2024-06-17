@@ -1,0 +1,32 @@
+/* Style for the navigation container */
+.nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  /* Style for the unordered list */
+  .nav ul {
+    list-style-type: none; /* Using the list-style-type: none; property in CSS removes the default bullets or numbers from list items.  */
+    display:flex ;
+    margin: 0;
+    padding: 0;
+    
+    justify-content:center; /*to display content in center */
+  }
+  
+  /* Style for each list item */
+  .nav li {
+    display: inline;
+    margin: 0 15px;
+    padding: 10px 20px;
+    color: white;
+    cursor:pointer;/* The cursor: pointer; CSS property changes the cursor to a hand (or pointing finger) icon when the user hovers over an element.*/
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style for the list items on hover */
+  .nav li:hover {
+    background-color: #575757;
+    border-radius: 4px;
+  }
+  
